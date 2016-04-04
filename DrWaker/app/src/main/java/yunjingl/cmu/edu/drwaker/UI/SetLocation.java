@@ -1,4 +1,4 @@
-package yunjingl.cmu.edu.drwaker.UI;
+package yunjingl.cmu.edu.drwaker.ui;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;

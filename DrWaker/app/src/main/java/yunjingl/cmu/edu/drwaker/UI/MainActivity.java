@@ -1,4 +1,4 @@
-package yunjingl.cmu.edu.drwaker.UI;
+package yunjingl.cmu.edu.drwaker.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -23,6 +23,17 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button testSelfie = (Button) findViewById(R.id.test_selfie);
+        testSelfie.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(getApplicationContext(), SelfieActivity.class);
+                        startActivity(intent);
+                    }
+                }
+        );
     }
 
     @Override
