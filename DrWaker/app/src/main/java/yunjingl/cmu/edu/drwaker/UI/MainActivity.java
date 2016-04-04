@@ -1,4 +1,4 @@
-package yunjingl.cmu.edu.drwaker.UI;
+package yunjingl.cmu.edu.drwaker.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
